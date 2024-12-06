@@ -27,7 +27,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                     .padding()
                 
-                NavigationLink("Go to Grid View", destination: GridViewPage())
+                NavigationLink("Go to Grid View!", destination: GridViewPage())
                     .padding()
                 
                 NavigationLink("Go to Horizontal List", destination: HorizontalListPage())
